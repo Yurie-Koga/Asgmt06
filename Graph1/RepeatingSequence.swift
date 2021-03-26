@@ -74,10 +74,11 @@ func repeatingSeq() {
         }
         sums.append(val)
     }
-    print("read numbers         : \(sums)")
-    print("repeatation starts at: \(repeatStIndex)")
-    print("patterns             : \(patterns)")
-    print("outside repetation   : \(sums[0..<repeatStIndex])")
+    print(repeatStIndex)
+//    print("read numbers         : \(sums)")
+//    print("repeatation starts at: \(repeatStIndex)")
+//    print("patterns             : \(patterns)")
+//    print("outside repetation   : \(sums[0..<repeatStIndex])")
     //    [57, 74, 65, 61, 37, 58, 89, 145, 42, 20, 4, 16, 37, 58, 89, 145, 42, 20, 4, 16, 37, 58, 89, 145, 42, 20, 4, 16, 37, 58, 89, 145]
         //                                                 ^^  ^^  ^^  ^^^  ^^  ^^  ^  ^^  !!
         
